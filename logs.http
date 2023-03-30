@@ -1,0 +1,135 @@
+# LOGS V1
+
+# Flight Log Entries (Basic Usage)
+
+https://www.edsm.net/api-logs-v1/get-logs
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+
+###
+
+
+# Flight Log Entries (Logs filtered by a date range)
+
+https://www.edsm.net/api-logs-v1/get-logs
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &systemName=Sol
+    &startDateTime=1674252900000
+    &endDateTime=1674252900000
+
+###
+
+# Flight Log Entries (Using a internal EDSM system id)
+
+https://www.edsm.net/api-logs-v1/get-logs
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &showId=1
+
+###
+
+
+
+# Commander Last Position (Basic Usage)
+
+# Gets public profile if it is enabled
+https://www.edsm.net/get-position?commanderName={{commanderName}}
+
+###
+
+https://www.edsm.net/api-logs-v1/get-position
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+
+###
+
+
+# Commander Last Position (All system features enabled)
+
+https://www.edsm.net/api-logs-v1/get-position
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &showId=1
+    &showCoordinates=1
+
+###
+
+
+
+# Set/Update Comment (Basic Usage)
+
+https://www.edsm.net/api-logs-v1/set-comment
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &systemName=Sol
+    &comment=hello
+
+###
+
+
+# Set/Update Comment (Using a internal EDSM system id)
+
+https://www.edsm.net/api-logs-v1/set-comment
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &systemName=Sol
+    &comment=hello
+    &systemId=27
+
+###
+
+
+
+# Get Comment (Basic Usage)
+
+https://www.edsm.net/api-logs-v1/get-comment
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &systemName=Sol
+
+###
+
+
+
+# Get Comment (Using a internal EDSM system id)
+
+https://www.edsm.net/api-logs-v1/get-comment
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &systemName=Sol
+    &systemId=27
+
+###
+
+
+
+# Get Comments (Basic Usage)
+
+https://www.edsm.net/api-logs-v1/get-comments
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+
+###
+
+
+
+# Get Comments (Using a internal EDSM system id)
+
+https://www.edsm.net/api-logs-v1/get-comments
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &showId=1
+
+###
+
+
+
+# Get Comments (Using a start date)
+
+https://www.edsm.net/api-logs-v1/get-comments
+    ?commanderName={{commanderName}}
+    &apiKey={{apiKey}}
+    &startDateTime=1674252900000
+
+###

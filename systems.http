@@ -1,0 +1,148 @@
+# SYSTEMS V1
+
+# Systems Info (Basic Usage)
+
+# USE AT YOUR OWN RISK!
+https://www.edsm.net/api-v1/systems
+ 
+
+###
+
+
+
+# System Info (All api options and system features enabled)
+
+https://www.edsm.net/api-v1/systems
+    ?systemName[]=Sol
+    &showPermit=1
+    &showPrimaryStar=1
+    &showInformation=1
+    &showCoordinates=1
+    &showId=1
+    &includeHidden=1
+    &onlyKnownCoordinates=1
+    &onlyUnknownCoordinates=1
+
+###
+
+
+# Systems Info (All api options and system features enabled)
+# Systems are filtered by update date within a given date range
+
+https://www.edsm.net/api-v1/systems
+    ?systemName[]=Sol
+    &systemName[]=Sirius
+    &showPermit=1
+    &showPrimaryStar=1
+    &showInformation=1
+    &showCoordinates=1
+    &showId=1
+    &showHidden=1
+    &onlyKnownCoordinates=1
+    &onlyUnknownCoordinates=1
+    &includeHidden=1
+    &startDateTime=1672435331
+    &endDateTime=1672439000
+
+###
+
+
+# Systems in a Sphere Radius (Basic Usage)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+
+###
+
+# Systems in a Sphere Radius (Using coordinates for the center of the sphere)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &x=0
+    &y=0
+    &z=0
+
+###
+
+# Systems in a Sphere Radius (Using a fixed radius)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &radius=70
+
+###
+
+
+# Systems in a Sphere Radius (Using minimum radius)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &minRadius=30
+    &radius=70
+
+###
+
+
+# Systems in a Sphere Radius (All api options and system features enabled)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &showPermit=1
+    &showPrimaryStar=1
+    &showInformation=1
+    &showCoordinates=1
+    &showId=1
+
+###
+
+
+
+# Systems in a Cube (Basic Usage)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+
+###
+
+# Systems in a Cube Radius (Using coordinates for the center of the sphere)
+# TODO - provide a valid coordinate
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &x=0
+    &y=0
+    &z=0
+
+###
+
+# Systems in a Cube Radius (Using a fixed radius)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &radius=70
+
+###
+
+
+# Systems in a Cube Radius (Using minimum radius)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &minRadius=30
+    &radius=70
+
+###
+
+
+# Systems in a Cube Radius (All api options and system features enabled)
+
+https://www.edsm.net/api-v1/sphere-systems
+    ?systemName=Sol
+    &showPermit=1
+    &showPrimaryStar=1
+    &showInformation=1
+    &showCoordinates=1
+    &showId=1
+
+###
+
