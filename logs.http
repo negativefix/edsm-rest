@@ -2,7 +2,7 @@
 
 # Flight Log Entries (Basic Usage)
 
-https://www.edsm.net/api-logs-v1/get-logs
+GET https://www.edsm.net/api-logs-v1/get-logs
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
 
@@ -11,7 +11,7 @@ https://www.edsm.net/api-logs-v1/get-logs
 
 # Flight Log Entries (Logs filtered by a date range)
 
-https://www.edsm.net/api-logs-v1/get-logs
+GET https://www.edsm.net/api-logs-v1/get-logs
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &systemName=Sol
@@ -22,7 +22,7 @@ https://www.edsm.net/api-logs-v1/get-logs
 
 # Flight Log Entries (Using a internal EDSM system id)
 
-https://www.edsm.net/api-logs-v1/get-logs
+GET https://www.edsm.net/api-logs-v1/get-logs
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &showId=1
@@ -34,11 +34,11 @@ https://www.edsm.net/api-logs-v1/get-logs
 # Commander Last Position (Basic Usage)
 
 # Gets public profile if it is enabled
-https://www.edsm.net/get-position?commanderName={{commanderName}}
+GET https://www.edsm.net/get-position?commanderName={{commanderName}}
 
 ###
 
-https://www.edsm.net/api-logs-v1/get-position
+GET https://www.edsm.net/api-logs-v1/get-position
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
 
@@ -47,7 +47,7 @@ https://www.edsm.net/api-logs-v1/get-position
 
 # Commander Last Position (All system features enabled)
 
-https://www.edsm.net/api-logs-v1/get-position
+GET https://www.edsm.net/api-logs-v1/get-position
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &showId=1
@@ -59,7 +59,7 @@ https://www.edsm.net/api-logs-v1/get-position
 
 # Set/Update Comment (Basic Usage)
 
-https://www.edsm.net/api-logs-v1/set-comment
+GET https://www.edsm.net/api-logs-v1/set-comment
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &systemName=Sol
@@ -70,7 +70,7 @@ https://www.edsm.net/api-logs-v1/set-comment
 
 # Set/Update Comment (Using a internal EDSM system id)
 
-https://www.edsm.net/api-logs-v1/set-comment
+GET https://www.edsm.net/api-logs-v1/set-comment
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &systemName=Sol
@@ -83,7 +83,7 @@ https://www.edsm.net/api-logs-v1/set-comment
 
 # Get Comment (Basic Usage)
 
-https://www.edsm.net/api-logs-v1/get-comment
+GET https://www.edsm.net/api-logs-v1/get-comment
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &systemName=Sol
@@ -94,7 +94,7 @@ https://www.edsm.net/api-logs-v1/get-comment
 
 # Get Comment (Using a internal EDSM system id)
 
-https://www.edsm.net/api-logs-v1/get-comment
+GET https://www.edsm.net/api-logs-v1/get-comment
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &systemName=Sol
@@ -106,7 +106,7 @@ https://www.edsm.net/api-logs-v1/get-comment
 
 # Get Comments (Basic Usage)
 
-https://www.edsm.net/api-logs-v1/get-comments
+GET https://www.edsm.net/api-logs-v1/get-comments
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
 
@@ -116,7 +116,7 @@ https://www.edsm.net/api-logs-v1/get-comments
 
 # Get Comments (Using a internal EDSM system id)
 
-https://www.edsm.net/api-logs-v1/get-comments
+GET https://www.edsm.net/api-logs-v1/get-comments
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &showId=1
@@ -127,7 +127,7 @@ https://www.edsm.net/api-logs-v1/get-comments
 
 # Get Comments (Using a start date)
 
-https://www.edsm.net/api-logs-v1/get-comments
+GET https://www.edsm.net/api-logs-v1/get-comments
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &startDateTime=1674252900000

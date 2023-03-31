@@ -2,7 +2,7 @@
 
 # System Bodies Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/bodies
+GET https://www.edsm.net/api-system-v1/bodies
     ?systemName=Sol
 
 ###
@@ -10,7 +10,7 @@ https://www.edsm.net/api-system-v1/bodies
 
 # System Bodies Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/bodies?
+GET https://www.edsm.net/api-system-v1/bodies?
     ?systemName=Sol
     &systemId=27
 
@@ -19,7 +19,7 @@ https://www.edsm.net/api-system-v1/bodies?
 
 # System Estimated Scan Value (Basic Usage)
 
-https://www.edsm.net/api-system-v1/estimated-value
+GET https://www.edsm.net/api-system-v1/estimated-value
     ?systemName=Sol
 
 ###
@@ -27,7 +27,7 @@ https://www.edsm.net/api-system-v1/estimated-value
 
 # System Estimated Scan Value (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/estimated-value
+GET https://www.edsm.net/api-system-v1/estimated-value
     ?systemName=Sol
     &systemId=27
 
@@ -37,7 +37,7 @@ https://www.edsm.net/api-system-v1/estimated-value
 
 # System Stations Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/stations
+GET https://www.edsm.net/api-system-v1/stations
     ?systemName=Sol
 
 ### 
@@ -45,7 +45,7 @@ https://www.edsm.net/api-system-v1/stations
 
 # System Stations Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/stations
+GET https://www.edsm.net/api-system-v1/stations
     ?systemName=Sol
     &systemId=27
 
@@ -54,14 +54,14 @@ https://www.edsm.net/api-system-v1/stations
 
 # Station Market Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/stations/market
+GET https://www.edsm.net/api-system-v1/stations/market
     ?systemName=Sol
     &marketId=128016384
     
 
 ###
 
-https://www.edsm.net/api-system-v1/stations/market
+GET https://www.edsm.net/api-system-v1/stations/market
     ?systemName=Sol
     &stationName=Daedalus
 
@@ -70,7 +70,7 @@ https://www.edsm.net/api-system-v1/stations/market
 
 # Station Market Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/stations/market
+GET https://www.edsm.net/api-system-v1/stations/market
     ?systemName=Sol
     &marketId=128016384
     &systemId=27
@@ -81,13 +81,13 @@ https://www.edsm.net/api-system-v1/stations/market
 
 # Station Shipyard Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/stations/shipyard
+GET https://www.edsm.net/api-system-v1/stations/shipyard
     ?systemName=Sol
     &marketId=128016384
 
 ###
 
-https://www.edsm.net/api-system-v1/stations/shipyard
+GET https://www.edsm.net/api-system-v1/stations/shipyard
     ?systemName=Sol
     &stationName=Daedalus
 
@@ -96,7 +96,7 @@ https://www.edsm.net/api-system-v1/stations/shipyard
 
 # Station Shipyard Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/stations/shipyard
+GET https://www.edsm.net/api-system-v1/stations/shipyard
     ?systemName=Sol
     &marketId=128016384
     &systemId=27
@@ -107,20 +107,20 @@ https://www.edsm.net/api-system-v1/stations/shipyard
 
 # Station Outfitting Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/stations/outfitting
+GET https://www.edsm.net/api-system-v1/stations/outfitting
     ?systemName=Sol
     &marketId=128016384
 
 ###
 
-https://www.edsm.net/api-system-v1/stations/shipyard
+GET https://www.edsm.net/api-system-v1/stations/shipyard
     ?systemName=Sol
     &stationName=Daedalus
 
 
 # Station Outfitting Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/stations/outfitting
+GET https://www.edsm.net/api-system-v1/stations/outfitting
     ?systemName=Sol
     &marketId=128016384
     &systemId=27
@@ -131,7 +131,7 @@ https://www.edsm.net/api-system-v1/stations/outfitting
 
 # System Factions Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/factions
+GET https://www.edsm.net/api-system-v1/factions
     ?systemName=Sol
 
 ###
@@ -139,7 +139,7 @@ https://www.edsm.net/api-system-v1/factions
 
 # System Factions Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/factions
+GET https://www.edsm.net/api-system-v1/factions
     ?systemName=Sol
     &systemId=27
 
@@ -148,7 +148,7 @@ https://www.edsm.net/api-system-v1/factions
 
 # System Factions Info (System history enabled)
 
-https://www.edsm.net/api-system-v1/factions
+GET https://www.edsm.net/api-system-v1/factions
     ?systemName=Sol
     &showHistory=1
 
@@ -158,7 +158,7 @@ https://www.edsm.net/api-system-v1/factions
  
 # System Traffic Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/traffic
+GET https://www.edsm.net/api-system-v1/traffic
     ?systemName=Sol
 
 ###
@@ -166,7 +166,7 @@ https://www.edsm.net/api-system-v1/traffic
 
 # System Traffic Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/traffic
+GET https://www.edsm.net/api-system-v1/traffic
     ?systemName=Sol
     &systemId=27
 
@@ -176,7 +176,7 @@ https://www.edsm.net/api-system-v1/traffic
 
 # System Deaths Info (Basic Usage)
 
-https://www.edsm.net/api-system-v1/deaths
+GET https://www.edsm.net/api-system-v1/deaths
     ?systemName=Sol
 
 ###
@@ -185,7 +185,7 @@ https://www.edsm.net/api-system-v1/deaths
 
 # System Deaths Info (Using a internal EDSM id)
 
-https://www.edsm.net/api-system-v1/deaths
+GET https://www.edsm.net/api-system-v1/deaths
     ?systemName=Sol
     &systemId=27
 

@@ -3,11 +3,11 @@
 # Commander Ranks (Basic Usage)
 
 # Gets public profile if enabled
-https://www.edsm.net/api-commander-v1/get-ranks?commanderName={{commanderName}}
+GET https://www.edsm.net/api-commander-v1/get-ranks?commanderName={{commanderName}}
 
 ###
 
-https://www.edsm.net/api-commander-v1/get-ranks
+GET https://www.edsm.net/api-commander-v1/get-ranks
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
 
@@ -17,7 +17,7 @@ https://www.edsm.net/api-commander-v1/get-ranks
 
 # Commander Credits (Basic Usage)
 
-https://www.edsm.net/api-commander-v1/get-credits
+GET https://www.edsm.net/api-commander-v1/get-credits
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
 
@@ -27,7 +27,7 @@ https://www.edsm.net/api-commander-v1/get-credits
 # Commander Credits (Using a period to show credits within the period)
 
 # Valid values for period are 7DAY, 1MONTH, 3MONTH, 6MONTH 
-https://www.edsm.net/api-commander-v1/get-credits
+GET https://www.edsm.net/api-commander-v1/get-credits
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &period=7DAYS
@@ -39,12 +39,12 @@ https://www.edsm.net/api-commander-v1/get-credits
 # Commander Materials/Cargo/Data (Basic Usage)
 
 # Gets public profile if enabled
-https://www.edsm.net/api-commander-v1/get-materials?commanderName={{commanderName}}
+GET https://www.edsm.net/api-commander-v1/get-materials?commanderName={{commanderName}}
 
 ###
 
 
-https://www.edsm.net/api-commander-v1/get-materials
+GET https://www.edsm.net/api-commander-v1/get-materials
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
 
@@ -54,7 +54,7 @@ https://www.edsm.net/api-commander-v1/get-materials
 # Commander Materials/Cargo/Data (Using a material type filter)
 
 # Valid values for type are materials, cargo, data 
-https://www.edsm.net/api-commander-v1/get-materials
+GET https://www.edsm.net/api-commander-v1/get-materials
     ?commanderName={{commanderName}}
     &apiKey={{apiKey}}
     &type=cargo
