@@ -1,0 +1,19 @@
+# JOURNAL V1
+
+#  Upload Journal Entries
+
+POST https://www.edsm.net/api-journal-v1
+content-type: application/json
+
+{
+    "commanderName": "YourCommanderName",
+    "apiKey": "YourApiKey",
+    "fromSoftware": "someSoftwareName",
+    "fromSoftwareVersion": "someSoftwareVersion",
+    "fromGameVersion": "4.0.0.1477",
+    "fromGameBuild": "r291050/r0",
+    "message": ["List of messages"]
+}
+  
+
+###
