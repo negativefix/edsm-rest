@@ -8,7 +8,7 @@ GET https://www.edsm.net/api-system-v1/bodies
 ###
 
 
-# System Bodies Info (Using a internal EDSM id)
+# System Bodies Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/bodies?
     ?systemName=Sol
@@ -25,7 +25,7 @@ GET https://www.edsm.net/api-system-v1/estimated-value
 ###
 
 
-# System Estimated Scan Value (Using a internal EDSM id)
+# System Estimated Scan Value (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/estimated-value
     ?systemName=Sol
@@ -43,7 +43,7 @@ GET https://www.edsm.net/api-system-v1/stations
 ### 
 
 
-# System Stations Info (Using a internal EDSM id)
+# System Stations Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/stations
     ?systemName=Sol
@@ -68,7 +68,7 @@ GET https://www.edsm.net/api-system-v1/stations/market
 ###
 
 
-# Station Market Info (Using a internal EDSM id)
+# Station Market Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/stations/market
     ?systemName=Sol
@@ -94,7 +94,7 @@ GET https://www.edsm.net/api-system-v1/stations/shipyard
 ###
 
 
-# Station Shipyard Info (Using a internal EDSM id)
+# Station Shipyard Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/stations/shipyard
     ?systemName=Sol
@@ -118,7 +118,7 @@ GET https://www.edsm.net/api-system-v1/stations/shipyard
     &stationName=Daedalus
 
 
-# Station Outfitting Info (Using a internal EDSM id)
+# Station Outfitting Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/stations/outfitting
     ?systemName=Sol
@@ -137,7 +137,7 @@ GET https://www.edsm.net/api-system-v1/factions
 ###
 
 
-# System Factions Info (Using a internal EDSM id)
+# System Factions Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/factions
     ?systemName=Sol
@@ -164,7 +164,7 @@ GET https://www.edsm.net/api-system-v1/traffic
 ###
 
 
-# System Traffic Info (Using a internal EDSM id)
+# System Traffic Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/traffic
     ?systemName=Sol
@@ -183,7 +183,7 @@ GET https://www.edsm.net/api-system-v1/deaths
 
 
 
-# System Deaths Info (Using a internal EDSM id)
+# System Deaths Info (Using a internal EDSM system id)
 
 GET https://www.edsm.net/api-system-v1/deaths
     ?systemName=Sol
