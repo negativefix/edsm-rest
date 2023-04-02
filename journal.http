@@ -17,3 +17,9 @@ content-type: application/json
   
 
 ###
+
+
+
+# Discarded Events
+
+ GET https://www.edsm.net/api-journal-v1/discard
