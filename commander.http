@@ -13,6 +13,12 @@ GET https://www.edsm.net/api-commander-v1/get-ranks
 
 ###
 
+# Invalid credentials error
+
+GET https://www.edsm.net/api-commander-v1/get-credits
+    ?commanderName=xxx
+    &apiKey=yy
+
 
 
 # Commander Credits (Basic Usage)
